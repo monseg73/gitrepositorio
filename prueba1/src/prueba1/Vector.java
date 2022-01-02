@@ -9,6 +9,7 @@ public class Vector {
 		for (int i=0;i<n;i++) {
 			vector[i]=(i+1)*10;
 		}
+		System.out.println("Los elementos del vector son:");
 		//visualizamos el vector
 		for (int i=0;i<n;i++)
 			System.out.printf("Elemento %d = %d\n",i,vector[i]);
